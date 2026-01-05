@@ -32,7 +32,7 @@ function DeleteBookBtn({ id }: { id: number }) {
       colorScheme="red"
       size="sm"
       onClick={handleClick}
-      isLoading={loading}
+      loading={loading}
       loadingText="Deleting"
     >
       DELETE BOOK
