@@ -178,7 +178,7 @@ const UpdateBookForm = () => {
                   colorScheme="blue"
                   size="md"
                   alignSelf="flex-end"
-                  isLoading={loading}
+                  loading={loading}
                 >
                   Update Book
                 </Button>
